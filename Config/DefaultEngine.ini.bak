@@ -175,3 +175,12 @@ ChaosSettings=(DefaultThreadingModel=TaskGraph,DedicatedThreadTickMode=VariableC
 [/Script/NavigationSystem.RecastNavMesh]
 RuntimeGeneration=Dynamic
 
+[OnlineSubsystem]
+DefaultPlatformService=Steam
+
+[OnlineSubsystemSteam]
+bEnabled=true
+SteamDevAppId=1361050
+
+[/Script/OnlineSubsystemSteam.SteamNetDriver]
+NetConnectionClassName=OnlineSubsystemSteam.SteamNetConnection
